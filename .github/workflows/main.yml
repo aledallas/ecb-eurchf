@@ -27,7 +27,7 @@ jobs:
         R -e 'install.packages("xml2")'
         R -e 'install.packages("writexl")'
     # Run R script
-    - name: Import
+    - name: Retrieve data
       run: Rscript ecb_eurchf.R
       
  # Add new files in data folder, commit along with other modified files, push
