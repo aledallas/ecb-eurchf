@@ -1,5 +1,5 @@
-# Hourly scraping
-name: nifty50scrape
+# Daily retrieve EUR/CHF exchange data from ECB
+name: ecb-eurchf
 
 # Controls when the action will run.
 on:
