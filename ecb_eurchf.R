@@ -1,5 +1,5 @@
 # Retrieve EUr/CHF currency exchange data from ECB
-library(dplyr)
+library(tidyverse)
 library(xml2)
 library(writexl)
 
