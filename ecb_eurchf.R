@@ -22,4 +22,4 @@ obs <- obs_raw %>%
   arrange(desc(time_period))
 
 # write output
-writexl::write_xlsx(obs, "data/ecb_eurchf.xlsx")
+writexl::write_xlsx(obs, "ecb_eurchf.xlsx")
